@@ -1,0 +1,88 @@
+/*.collection-type-template-page #bgOverlay {
+	background-color: rgba(236, 24, 70, 0.75);
+}*/
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[data-compound-type="logo"][data-slice-type="image"] img {
+	max-height: 180px !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 140px !important;
+}
+
+#content {
+	background-color: transparent;
+	padding: 90px 0;
+}
+
+div.site-desc > p > a {
+	color: #fff;
+	padding: 20px;
+	position: relative;
+	top: 40px;
+	background: transparent;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	text-decoration: none;
+}
+
+div.site-desc > p > a:hover {
+	color: #000;
+	background: #fff;
+	text-decoration: none;
+	-webkit-transition: 0.1s background-color linear, 0.1s color linear;
+	-moz-transition: 0.1s background-color linear, 0.1s color linear;
+	-o-transition: 0.1s background-color linear, 0.1s color linear;
+	transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.form-wrapper .field-list .field .field-element {
+	width: 100%;
+	padding: 12px;
+	margin: 6px 0 4px;
+	border: none;
+	background: rgba(255,255,255,0.95);
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.form-wrapper .field-error {
+	background: url('//static.squarespace.com/universal/images-v6/standard/icon_close_7_light.png') no-repeat scroll 9px 50% #333;
+	font-style: italic;  
+}
+
+.form-wrapper .field-list .form-item.error, .form-wrapper .field-list .form-item.error .caption, .form-wrapper .field-list .form-item.error .title, .form-wrapper .field-list .form-item.error .description {
+	color: #fff;
+	font-style: italic;
+}
+
+.caption, .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .lightbox-close, .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-title, .form-wrapper .field-list .fields .title, label.title, .form-wrapper .field-list .title, .option {
+	color: #fff;
+}
+
+.sqs-modal-lightbox-content .lightbox-inner .lightbox-content {
+	background: #ec1846;
+}
+
+.sqs-modal-lightbox-content .lightbox-background {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.7;
+}
+
